@@ -36,7 +36,7 @@ class LLMAgent:
             raise ImportError("Cần cài đặt: pip install google-generativeai")
 
         self.api_key = self.api_key or os.getenv("GEMINI_API_KEY")
-        self.model_name = self.model_name or os.getenv("GEMINI_MODEL", "gemini-2.0-flash-lite")
+        self.model_name = self.model_name or os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite")
 
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY không tồn tại. Set env hoặc pass qua api_key param.")

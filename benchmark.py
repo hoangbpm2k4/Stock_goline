@@ -14,7 +14,7 @@ if sys.platform == 'win32':
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 os.environ['PYTHONIOENCODING'] = 'utf-8'
-os.environ['GEMINI_API_KEY'] = 'API'
+os.environ['GEMINI_API_KEY'] = 'AIzaSyAVqeAGwful1828vSLU34p8Bi7kVioyMvU'
 
 from run_final_clean import Agent
 

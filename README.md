@@ -6,7 +6,7 @@ Agent AI trả lời câu hỏi về thị trường chứng khoán Việt Nam, 
 
 **Ứng viên:** [Tên của bạn]
 **Ngày hoàn thành:** 2025-11-13
-**LLM Provider:** Google Gemini (gemini-2.0-flash-lite)
+**LLM Provider:** Google Gemini (gemini-2.0-flash)
 
 ---
 
@@ -325,7 +325,7 @@ python benchmark.py
 
 | Component | Technology |
 |-----------|-----------|
-| **LLM** | Google Gemini 2.0 Flash Lite |
+| **LLM** | Google Gemini 2.0 Flash |
 | **Data Source** | VnStock API (Free) |
 | **Framework** | FastAPI |
 | **Data Processing** | Pandas, NumPy |

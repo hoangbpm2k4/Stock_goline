@@ -200,7 +200,7 @@ class Agent:
             trace.set_analysis(action_info)
 
             if not action_info or "error" in action_info:
-                return {"answer": "Không hiểu câu hỏi. Vui lòng thử lại."}
+                return {"answer": "Không hiểu câu hỏi. Vui lòng thử lại đi."}
 
             data = self._fetch_data(action_info)
 
