@@ -1,0 +1,31 @@
+# VNStock AI Agent - Requirements
+# Python 3.12+
+
+# LLM Providers
+google-generativeai>=0.3.0
+
+# Data Source
+vnstock>=2.0.0
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0  # For Excel read/write
+
+# Date/Time
+python-dateutil>=2.8.0
+
+# Document Processing (for testing)
+python-docx>=1.0.0
+
+# Optional: For better performance
+orjson>=3.9.0  # Faster JSON
+
+# Dev Dependencies (optional)
+pytest>=7.4.0
+black>=23.0.0
